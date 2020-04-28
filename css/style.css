@@ -3,9 +3,8 @@
     --main-dark : #1976D2;
     --dark : #263238;
 }
-*{
-    font-family: 'Yantramanav', sans-serif;
-}
+
+
 /*-------------Général----------------*/
 
 h1, h2, h3, h4{
@@ -25,15 +24,18 @@ h1, h2, h3, h4{
 
 /*-------------Side----------------*/
 /*---Photo---*/
-.picture, .personal-info{
+
+picture, .personal-info{
     background-color: var(--main-color)
 }
 
-.picture img{
+.profile-picture{
+    max-width: 240px;
     border: .4em solid var(--main-dark)!important;
 }
 
 /*---Personal-info---*/
+
 .personal-info h2{
     font-size: 1.5em;
 }
@@ -45,14 +47,20 @@ h1, h2, h3, h4{
 }
 
 /*-------------Content----------------*/
+
 /*---Header---*/
+
 header h1{
     font-size: 4em;
-    margin: 0;
+    line-height: .6em;
+}
+header .name{
+    font-size: .4em;
 }
 header p{
-    font-size: 2em
+    font-size: 1.7em
 }
+
 /*---Main---*/
 
 .section-title{
