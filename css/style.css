@@ -1,7 +1,7 @@
 :root{
     --main-color : #1E88E5;
     --main-dark : #1976D2;
-    --dark : #263238;
+    --dark : #0D47A1;
 }
 
 
@@ -10,7 +10,9 @@
 h1, h2, h3, h4{
     text-transform: uppercase;
 }
-
+a{
+    color: var(--dark);
+}
 .color, .content-inner .fas, .content-inner .far, .personal-info h2{
     color: var(--main-color);
 }
@@ -79,4 +81,7 @@ header .name{
 .content-inner .details p {
     line-height: 1.3em;
     font-size: .8em;
+}
+.recommandations p{
+    margin-bottom:0;
 }
