@@ -3,7 +3,9 @@
     --main-dark : #1976D2;
     --dark : #263238;
 }
-
+*{
+    font-family: 'Yantramanav', sans-serif;
+}
 /*-------------Général----------------*/
 
 h1, h2, h3, h4{
@@ -14,7 +16,12 @@ h1, h2, h3, h4{
     color: var(--main-color);
 }
 
-
+.border, .border-bottom{
+    border-width: .1em!important
+}
+.border-color{
+    border-color: var(--main-color)!important;
+}
 
 /*-------------Side----------------*/
 /*---Photo---*/
@@ -22,27 +29,31 @@ h1, h2, h3, h4{
     background-color: var(--main-color)
 }
 
-.picture{
-    padding: 2vw;
-}
-
 .picture img{
-    width: 100%;
-    height: auto;
     border: .4em solid var(--main-dark)!important;
 }
 
 /*---Personal-info---*/
 .personal-info h2{
     font-size: 1.5em;
-    padding: .2em;
 }
 .hobbies li{
-    width: 2em;
+    height: 1.7em;
+    width: 1.7em;
     font-size: 2em;
     border-width: .1em!important;
 }
+
 /*-------------Content----------------*/
+/*---Header---*/
+header h1{
+    font-size: 4em;
+    margin: 0;
+}
+header p{
+    font-size: 2em
+}
+/*---Main---*/
 
 .section-title{
     font-size: 2.5em;
