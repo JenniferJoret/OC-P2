@@ -11,14 +11,14 @@ h1, h2, h3, h4{
     text-transform: uppercase;
 }
 
-.color, .FA-color, .personal-info h2{
+.color, .content-inner .fas, .content-inner .far, .personal-info h2{
     color: var(--main-color);
 }
 
 .border, .border-bottom{
-    border-width: .1em!important
+    border-width: .06em!important;
 }
-.border-color{
+.border-bottom{
     border-color: var(--main-color)!important;
 }
 
@@ -57,12 +57,26 @@ header h1{
 header .name{
     font-size: .4em;
 }
-header p{
-    font-size: 1.7em
-}
+
 
 /*---Main---*/
 
 .section-title{
-    font-size: 2.5em;
+    font-size: 2.2em;
+}
+.section-title h2{
+    font-size: .7em;
+}
+.content-inner li .fas, .content-inner li .far{
+    font-size: .7em;
+}
+.content-inner h3{
+    font-size: 1.5em;
+}
+.content-inner h3 span{
+    font-size: .7em;
+}
+.content-inner .details p {
+    line-height: 1.3em;
+    font-size: .8em;
 }
