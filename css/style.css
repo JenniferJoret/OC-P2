@@ -7,11 +7,14 @@
 h1, h2, h3, h4{
     text-transform: uppercase;
 }
-body{
-    margin: 0;
+
+.picture, .personal-info{
+    background-color: var(--main-color)
 }
-.content{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+
+.picture img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: .5vw solid var(--main-dark);
 }

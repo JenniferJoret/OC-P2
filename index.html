@@ -5,13 +5,13 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <title>Jessica Leroy</title>
     <!--
     <meta name="Content-Type" content="UTF-8">
     <meta name="Content-Language" content="fr">
-    <meta name="Description" content="Développeuse Web - Graphiste, vous accompagnant lors de vos projets.">
+    <meta name="Description" content="Développeuse Web vous accompagnant lors de vos projets.">
     <meta name="Identifier-Url" content="">
 -->
 
@@ -60,6 +60,7 @@
 <![endif]-->
 
     <!-- Custom stlylesheet -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="css/style.css" />
     <link type="text/css" rel="stylesheet" href="css/all.min.css" />
 
@@ -67,96 +68,95 @@
 
 <body>
     <section class="content">
-        <header>
-            <h1><span class="name">Jessica</span> Leroy
+        <header class="row container-fluid">
+            <h1 class="col-lg-9 align-self-center order-12"><span class="name">Jessica</span> Leroy
                 <br />Développeuse web freelance</h1>
-            <div class="picture">
+            <div class="picture col-lg-3">
                 <img class="profile-picture" src="img/my-photo.jpg" alt="Photo de Jessica Leroy">
             </div>
         </header>
 
-        <main>
-            <section class="formation">
-                <i class="fas fa-graduation-cap">
-                    <h2>Formation</h2>
-                </i>
-                <ul>
-                    <li>
-                        <p class="date">2016 - 2017<br>Paris</p>
-                        <div class="details">
-                            <h3>OpenClassrooms<br />Junior Web Developer</h3>
-                            <p>(w.t) Doc, Doc, come in! (Courthouse Square) (w.t) Marty, what happened to you? I went to Biff's house and you weren't there. (Biff’s Car) (w.t) You must have just missed me. I'm in the back of Biff's car. He's on his way to the Enchantment Under The Sea Dance.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="date">2014 - 2016<br>Orléans</p>
-                        <div class="details">
-                            <h3>University of Lorem<br />Graphic Designer</h3>
-                            <p>(w.t) Doc, Doc, come in! (Courthouse Square) (w.t) Marty, what happened to you? I went to Biff's house and you weren't there. (Biff’s Car) (w.t) You must have just missed me. I'm in the back of Biff's car. He's on his way to the Enchantment Under The Sea Dance.</p>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-            <section class="formation">
-                <i class="fas fa-briefcase">
-                    <h2>Expérience Professionelle</h2>
-                </i>
-                <ul>
-                    <li>
-                        <p class="date">Mars 2018 - Poste actuel<br>Paris</p>
-                        <div class="details">
-                            <h3>Design Inc.</h3>
-                            <h5>Junior Web Developer</h5>
-                            <p>(w.t) Doc, Doc, come in! (Courthouse Square) (w.t) Marty, what happened to you? I went to Biff's house and you weren't there. (Biff’s Car) (w.t) You must have just missed me. I'm in the back of Biff's car. He's on his way to the Enchantment Under The Sea Dance.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="date">Mars 2018 - Poste actuel<br>Paris</p>
-                        <div class="details">
-                            <h3>Design Inc.</h3>
-                            <h5>Junior Web Developer</h5>
-                            <p>(w.t) Doc, Doc, come in! (Courthouse Square) (w.t) Marty, what happened to you? I went to Biff's house and you weren't there. (Biff’s Car) (w.t) You must have just missed me. I'm in the back of Biff's car. He's on his way to the Enchantment Under The Sea Dance.</p>
-                        </div>
-                    </li>
-                    <li>
-                        <p class="date">Mars 2018 - Poste actuel<br>Paris</p>
-                        <div class="details">
-                            <h3>Design Inc.</h3>
-                            <h5>Junior Web Developer</h5>
-                            <p>(w.t) Doc, Doc, come in! (Courthouse Square) (w.t) Marty, what happened to you? I went to Biff's house and you weren't there. (Biff’s Car) (w.t) You must have just missed me. I'm in the back of Biff's car. He's on his way to the Enchantment Under The Sea Dance.</p>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-            <section class="recommandations">
-                <i class="fas fa-pencil-alt">
-                    <h2>Recommandations</h2>
-                </i>
-                <ul>
-                    <li>
-                        <h5 class="rec-name">Maxime Kieman</h5>
-                        <p>Directeur, Mon agence</p>
-                        <p>Téléphone : 06 00 00 00 00</p>
-                        <p>Email : name@email.com</p>
-                    </li>
-                    <li>
-                        <h5 class="rec-name">Maxime Kieman</h5>
-                        <p>Directeur, Mon agence</p>
-                        <p>Téléphone : 06 00 00 00 00</p>
-                        <p>Email : name@email.com</p>
-                    </li>
-                </ul>
+        <main class="row">
+            <section class="content-inner col-lg-9 order-12 ">
+                <section class="formation row">
+                    <i class="fas fa-graduation-cap">
+                        <h2>Formation</h2>
+                    </i>
+                    <ul>
+                        <li>
+                            <p class="date">2016 - 2017<br>Paris</p>
+                            <div class="details">
+                                <h3>OpenClassrooms<br>Junior Web Developer</h3>
+                                <p>(w.t) Doc, Doc, come in! (Courthouse Square) (w.t) Marty, what happened to you? I went to Biff's house and you weren't there. (Biff’s Car) (w.t) You must have just missed me. I'm in the back of Biff's car. He's on his way to the Enchantment Under The Sea Dance.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="date">2014 - 2016<br>Orléans</p>
+                            <div class="details">
+                                <h3>University of Lorem<br>Graphic Designer</h3>
+                                <p>(w.t) Doc, Doc, come in! (Courthouse Square) (w.t) Marty, what happened to you? I went to Biff's house and you weren't there. (Biff’s Car) (w.t) You must have just missed me. I'm in the back of Biff's car. He's on his way to the Enchantment Under The Sea Dance.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="experience row">
+                    <i class="fas fa-briefcase">
+                        <h2>Expérience Professionelle</h2>
+                    </i>
+                    <ul>
+                        <li>
+                            <p class="date">Mars 2018 - Poste actuel<br>Paris</p>
+                            <div class="details">
+                                <h3>Design Inc.<br>Junior Web Developer</h3>
+                                <p>(w.t) Doc, Doc, come in! (Courthouse Square) (w.t) Marty, what happened to you? I went to Biff's house and you weren't there. (Biff’s Car) (w.t) You must have just missed me. I'm in the back of Biff's car. He's on his way to the Enchantment Under The Sea Dance.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="date">Mars 2018 - Poste actuel<br>Paris</p>
+                            <div class="details">
+                                <h3>Design Inc.<br>Junior Web Developer</h3>
+                                <p>(w.t) Doc, Doc, come in! (Courthouse Square) (w.t) Marty, what happened to you? I went to Biff's house and you weren't there. (Biff’s Car) (w.t) You must have just missed me. I'm in the back of Biff's car. He's on his way to the Enchantment Under The Sea Dance.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="date">Mars 2018 - Poste actuel<br>Paris</p>
+                            <div class="details">
+                                <h3>Design Inc.<br>Junior Web Developer</h3>
+                                <p>(w.t) Doc, Doc, come in! (Courthouse Square) (w.t) Marty, what happened to you? I went to Biff's house and you weren't there. (Biff’s Car) (w.t) You must have just missed me. I'm in the back of Biff's car. He's on his way to the Enchantment Under The Sea Dance.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="recommandations row">
+                    <i class="fas fa-pencil-alt">
+                        <h2>Recommandations</h2>
+                    </i>
+                    <ul>
+                        <li>
+                            <h3 class="rec-name">Maxime Kieman</h3>
+                            <p>Directeur, <a href="https://monagence.com">Mon agence</a></p>
+                            <p>Téléphone : <a href="tel:+33600000000">06 00 00 00 00</a></p>
+                            <p>Email : <a href="mailto:name@email.com">name@email.com</a></p>
+                        </li>
+                        <li>
+                            <h3 class="rec-name">Maxime Kieman</h3>
+                            <p>Directeur, <a href="https://monagence.com">Mon agence</a></p>
+                            <p>Téléphone : <a href="tel:+33600000000">06 00 00 00 00</a></p>
+                            <p>Email : <a href="mailto:name@email.com">name@email.com</a></p>
+                        </li>
+                    </ul>
+                </section>
             </section>
 
-            <section class="personal-info">
+            <section class="personal-info col-lg-3">
                 <div class="contact">
                     <h2>Contact</h2>
                     <div class="inner-contact">
-                        <p>Adresse<br />Paris, France</p>
-                        <p>Téléphone<br>06 00 00 00 00</p>
-                        <p>Email<br>nom@email.com</p>
-                        <p>Site web<br>www.name.com</p>
-                        <p>Skype<br>@nom_dutilisateur</p>
+                        <p>Adresse<br>Paris, France</p>
+                        <p>Téléphone<br><a href="tel:+33600000000">06 00 00 00 00</a></p>
+                        <p>Email<br><a href="mailto:nom@email.com">nom@email.com</a></p>
+                        <p>Site web<br><a href="www.name.com">www.name.com</a></p>
+                        <p>Skype<br><a href="callto:skye_account">@nom_dutilisateur</a></p>
                     </div>
                 </div>
                 <div class="about">
@@ -169,15 +169,21 @@
                     <h2>Loisirs</h2>
                     <div class="inner-about">
                         <ul>
-                        <li><i class="fas fa-music"></i></li>
-                        <li><i class="fas fa-gamepad"></i></li>
-                        <li><i class="fas fa-laptop-code"></i></li>
+                            <li><i class="fas fa-music"></i></li>
+                            <li><i class="fas fa-gamepad"></i></li>
+                            <li><i class="fas fa-laptop-code"></i></li>
                         </ul>
                     </div>
                 </div>
             </section>
         </main>
     </section>
+
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
