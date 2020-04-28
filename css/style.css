@@ -17,7 +17,7 @@ h1, h2, h3, h4{
 
 
 /*-------------Side----------------*/
-
+/*---Photo---*/
 .picture, .personal-info{
     background-color: var(--main-color)
 }
@@ -32,12 +32,18 @@ h1, h2, h3, h4{
     border: .4em solid var(--main-dark)!important;
 }
 
+/*---Personal-info---*/
 .personal-info h2{
     font-size: 1.5em;
     padding: .2em;
 }
+.hobbies li{
+    width: 2em;
+    font-size: 2em;
+    border-width: .1em!important;
+}
 /*-------------Content----------------*/
 
 .section-title{
-    font-size: 3em;
+    font-size: 2.5em;
 }
