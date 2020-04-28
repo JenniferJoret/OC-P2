@@ -66,22 +66,23 @@
 
 </head>
 
-<body>
-    <section class="content">
-        <header class="row container-fluid">
-            <h1 class="col-lg-9 align-self-center order-12"><span class="name">Jessica</span> Leroy
-                <br />Développeuse web freelance</h1>
+<body class="bg-dark">
+    <section class="content container container-fluid bg-white">
+        <header class="row">
+            <h1 class="offset-lg-1 col-lg-7 align-self-center order-12"><span class="color">Jessica</span> Leroy
+                <br>Développeuse web freelance</h1>
             <div class="picture col-lg-3">
-                <img class="profile-picture" src="img/my-photo.jpg" alt="Photo de Jessica Leroy">
+                <img class="profile-picture rounded-circle border" src="img/my-photo.jpg" alt="Photo de Jessica Leroy">
             </div>
         </header>
 
-        <main class="row">
-            <section class="content-inner col-lg-9 order-12 ">
-                <section class="formation row">
-                    <i class="fas fa-graduation-cap">
-                        <h2>Formation</h2>
-                    </i>
+        <main class="row ">
+            <section class="content-inner offset-lg-1 col-lg-7 order-lg-12">
+                <section class="formation row ">
+                    <div class="section-title row ">
+                        <i class="FA-color fas fa-graduation-cap"></i>
+                        <h2 class="align-self-center">Formation</h2>
+                    </div>
                     <ul>
                         <li>
                             <p class="date">2016 - 2017<br>Paris</p>
@@ -100,9 +101,10 @@
                     </ul>
                 </section>
                 <section class="experience row">
-                    <i class="fas fa-briefcase">
-                        <h2>Expérience Professionelle</h2>
-                    </i>
+                    <div class="section-title row">
+                        <i class="FA-color fas fa-briefcase"></i>
+                        <h2 class="align-self-center">Expérience Professionelle</h2>
+                    </div>
                     <ul>
                         <li>
                             <p class="date">Mars 2018 - Poste actuel<br>Paris</p>
@@ -128,9 +130,10 @@
                     </ul>
                 </section>
                 <section class="recommandations row">
-                    <i class="fas fa-pencil-alt">
-                        <h2>Recommandations</h2>
-                    </i>
+                    <div class="section-title">
+                        <i class="FA-color fas fa-pencil-alt"></i>
+                        <h2 class="align-self-center">Recommandations</h2>
+                    </div>
                     <ul>
                         <li>
                             <h3 class="rec-name">Maxime Kieman</h3>
@@ -145,36 +148,37 @@
                             <p>Email : <a href="mailto:name@email.com">name@email.com</a></p>
                         </li>
                     </ul>
+
                 </section>
             </section>
 
-            <section class="personal-info col-lg-3">
-                <div class="contact">
-                    <h2>Contact</h2>
-                    <div class="inner-contact">
+            <section class="personal-info col-lg-3 p-0 d-flex align-items-start flex-column">
+                <section class="contact align-self-lg-stretch">
+                    <h2 class="bg-dark text-center">Contact</h2>
+                    <div class="inner-contact offset-lg-1 col-lg-10">
                         <p>Adresse<br>Paris, France</p>
                         <p>Téléphone<br><a href="tel:+33600000000">06 00 00 00 00</a></p>
                         <p>Email<br><a href="mailto:nom@email.com">nom@email.com</a></p>
                         <p>Site web<br><a href="www.name.com">www.name.com</a></p>
                         <p>Skype<br><a href="callto:skye_account">@nom_dutilisateur</a></p>
                     </div>
-                </div>
-                <div class="about">
-                    <h2>À propos de moi</h2>
-                    <div class="inner-about">
+                </section>
+                <section class="about mb-auto align-self-lg-stretch">
+                    <h2 class="bg-dark text-center">À propos de moi</h2>
+                    <div class="inner-about offset-lg-1 col-lg-10">
                         <p>Well, wherever you're going, take me with you! I can't, Clara. I wish it didn't have to be this way...but just believe me when I say that I'll never forget you and that...I love you. I don't understand what you're trying to say. Clara...I don't think there's anyway that you can understand it. Please, Emmett, please...I have to know. If you sincerely do love me...then tell me the truth.</p>
                     </div>
-                </div>
-                <div class="hobbies">
-                    <h2>Loisirs</h2>
-                    <div class="inner-about">
+                </section>
+                <section class="hobbies align-self-lg-stretch">
+                    <h2 class="bg-dark text-center">Loisirs</h2>
+                    <div class="inner-hobbies offset-lg-1 col-lg-10">
                         <ul>
-                            <li><i class="fas fa-music"></i></li>
+                            <li><i class="fas fa-music border border-dark rounded-circle"></i></li>
                             <li><i class="fas fa-gamepad"></i></li>
                             <li><i class="fas fa-laptop-code"></i></li>
                         </ul>
                     </div>
-                </div>
+                </section>
             </section>
         </main>
     </section>

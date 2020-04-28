@@ -4,17 +4,40 @@
     --dark : #263238;
 }
 
+/*-------------Général----------------*/
+
 h1, h2, h3, h4{
     text-transform: uppercase;
 }
+
+.color, .FA-color, .personal-info h2{
+    color: var(--main-color);
+}
+
+
+
+/*-------------Side----------------*/
 
 .picture, .personal-info{
     background-color: var(--main-color)
 }
 
+.picture{
+    padding: 2vw;
+}
+
 .picture img{
     width: 100%;
     height: auto;
-    border-radius: 50%;
-    border: .5vw solid var(--main-dark);
+    border: .4em solid var(--main-dark)!important;
+}
+
+.personal-info h2{
+    font-size: 1.5em;
+    padding: .2em;
+}
+/*-------------Content----------------*/
+
+.section-title{
+    font-size: 3em;
 }
