@@ -58,7 +58,10 @@
     <!--[if lt IE 9]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<script>window.MSInputMethodContext && document.documentMode && document.write('<script src="js/ie11CustomProperties.js"><\x2fscript>');</script>
+    <script>
+        window.MSInputMethodContext && document.documentMode && document.write('<script src="js/ie11CustomProperties.js"><\x2fscript>');
+    </script>
+
     <!-- Custom stlylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="css/style.css" />
@@ -66,11 +69,9 @@
 
 </head>
 
-<body class="bg-dark">
+<body class="bg-dark content container container-fluid px-0">
 
-    <section class="content container container-fluid bg-white px-0">
-
-        <header class="row no-gutters">
+        <header class="row no-gutters bg-white ">
 
             <div class="main-title col-lg-7 align-self-center order-12 py-5 text-center text-lg-left m-auto">
                 <h1 class="m-0 font-weight-light text-lg-left ">
@@ -85,7 +86,7 @@
 
         </header>
 
-        <main class="row no-gutters">
+        <main class="row no-gutters bg-white ">
 
             <section class="content-inner col-lg-7 col-11 order-lg-12 p-0 m-auto ">
 
@@ -226,7 +227,6 @@
 
         </main>
 
-    </section>
 
 
     <!-- Scripts -->
