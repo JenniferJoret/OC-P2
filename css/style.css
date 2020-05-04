@@ -42,6 +42,7 @@ picture, .personal-info{
 .personal-info h2{
     font-size: 1.5em;
 }
+
 .hobbies li{
     height: 1.7em;
     width: 1.7em;
@@ -61,28 +62,23 @@ header .name{
     font-size: .4em;
 }
 
-
 /*---Main---*/
+
+
 main .row{
-    margin-right: 0!important;
-    margin-left: 0!important;
+    margin : auto 0;
 }
+
 .section-title{
     font-size: 2.2em;
 }
-.section-title h2{
-    font-size: .7em;
-}
-.content-inner li .fas, .content-inner li .far{
+.section-title h2, .content-inner li .fas, .content-inner li .far, .content-inner h3 span{
     font-size: .7em;
 }
 .content-inner h3{
     font-size: 1.5em;
 }
-.content-inner h3 span{
-    font-size: .7em;
-}
-.content-inner .details p {
+.content-inner .details p,.xp-list {
     line-height: 1.3em;
     font-size: .8em;
 }
