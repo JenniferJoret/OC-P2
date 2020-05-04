@@ -1,87 +1,140 @@
-:root{
-    --main-color : #1E88E5;
-    --main-dark : #1976D2;
-    --dark : #0D47A1;
+:root {
+    --main-color: #1E88E5;
+    --main-dark: #1976D2;
+    --dark: #0D47A1;
 }
 
 
 /*-------------Général----------------*/
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
     text-transform: uppercase;
+    word-break: break;
 }
-a{
+
+a {
     color: var(--dark);
 }
 
-.color, .content-inner .fas, .content-inner .far, .personal-info h2{
+.color,
+.content-inner .fas,
+.content-inner .far,
+.personal-info h2 {
     color: var(--main-color);
 }
 
-.border, .border-bottom{
-    border-width: .06em!important;
+.border,
+.border-bottom {
+    border-width: .06em !important;
 }
-.border-bottom{
-    border-color: var(--main-color)!important;
+
+.border-bottom {
+    border-color: var(--main-color) !important;
 }
 
 /*-------------Side----------------*/
 /*---Photo---*/
 
-picture, .personal-info{
+picture,
+.personal-info {
     background-color: var(--main-color)
 }
 
-.profile-picture{
+.profile-picture {
     max-width: 240px;
-    border: .4em solid var(--main-dark)!important;
+    border: .4em solid var(--main-dark) !important;
 }
 
 /*---Personal-info---*/
 
-.personal-info h2{
+.personal-info h2 {
     font-size: 1.5em;
 }
 
-.hobbies li{
+.hobbies li {
     height: 1.7em;
     width: 1.7em;
     font-size: 2em;
-    border-width: .1em!important;
+    border-width: .1em !important;
 }
 
 /*-------------Content----------------*/
 
 /*---Header---*/
 
-header h1{
+header h1 {
     font-size: 4em;
-    line-height: .6em;
+    line-height: .8em;
 }
-header .name{
+
+header .name {
     font-size: .4em;
 }
 
 /*---Main---*/
 
 
-main .row{
-    margin : auto 0;
+main .row {
+    margin: auto 0;
 }
 
-.section-title{
+.section-title {
     font-size: 2.2em;
 }
-.section-title h2, .content-inner li .fas, .content-inner li .far, .content-inner h3 span{
+
+.section-title h2,
+.content-inner li .fas,
+.content-inner li .far,
+.content-inner h3 span {
     font-size: .7em;
 }
-.content-inner h3{
+
+.content-inner h3 {
     font-size: 1.5em;
 }
-.content-inner .details p,.xp-list {
+
+.content-inner .details p,
+.xp-list {
     line-height: 1.3em;
     font-size: .8em;
 }
-.recommandations p{
-    margin-bottom:0;
+
+.recommandations p {
+    margin-bottom: 0;
+}
+
+/*-------------MQ----------------*/
+
+
+@media (max-width : 24em) {
+    header h1 {
+        font-size: 3.5em;
+    }
+
+    .section-title {
+        font-size: 1.8em !important;
+    }
+
+    .details h3 span,
+    .section-title h2,
+    .content-inner h3 span {
+        font-size: .7em;
+    }
+
+    main section:nth-last-child(2) i{
+        font-size: .6em!important;
+    }
+
+    .content-inner h3 {
+        font-size: 1.2em;
+    }
+
+    .content-inner .details p,
+    .xp-list {
+        font-size: .7em;
+    }
+
 }
