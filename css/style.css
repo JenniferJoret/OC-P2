@@ -108,28 +108,30 @@ main .row {
 
 /*-------------MQ----------------*/
 
-
 @media (max-width : 24em) {
     header h1 {
         font-size: 3.5em;
     }
 
     .section-title {
-        font-size: 1.8em !important;
+        font-size: 1.55em;
     }
 
-    .details h3 span,
-    .section-title h2,
-    .content-inner h3 span {
-        font-size: .7em;
+    main section:nth-last-child(2) ul i {
+        font-size: .45em !important;
+        margin-right: 2vw !important;
     }
 
-    main section:nth-last-child(2) i{
-        font-size: .6em!important;
+    .date {
+        font-size: .8em;
     }
 
     .content-inner h3 {
-        font-size: 1.2em;
+        font-size: 1em;
+    }
+
+    .content-inner h3 span {
+        font-size: .6em;
     }
 
     .content-inner .details p,
@@ -137,4 +139,7 @@ main .row {
         font-size: .7em;
     }
 
+    .recommandations ul li p {
+        font-size: .8em;
+    }
 }
