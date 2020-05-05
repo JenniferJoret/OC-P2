@@ -16,7 +16,7 @@ h4 {
 }
 
 a {
-    color: var(--dark);
+    color: var(--dark)!important;
 }
 
 .color,
@@ -108,13 +108,14 @@ main .row {
 
 /*-------------MQ----------------*/
 
-@media (max-width : 24em) {
+@media (max-width : 450px) {
+
     header h1 {
         font-size: 3.5em;
     }
 
-    .section-title {
-        font-size: 1.55em;
+    .section-title{
+        font-size: 1.5em;
     }
 
     main section:nth-last-child(2) ul i {
