@@ -43,7 +43,8 @@ picture,
 }
 
 .profile-picture {
-    max-width: 240px;
+    width: 240px;
+    max-width: 100%;
     border: .4em solid var(--main-dark) !important;
 }
 
